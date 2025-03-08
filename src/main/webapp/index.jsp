@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/LandingPage.css">
 </head>
 <body>
-    <!-- Header Section -->
+    
     <header>
         <div class="logo">
             <img src="<%= request.getContextPath() %>/images/Melosculptlogo.png" alt="MeloSculpt Logo">
@@ -28,7 +28,7 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    
     <section class="hero">
         <div class="hero-background"></div>
         <div class="hero-background" style="background-image: url('<%= request.getContextPath() %>/images/landingpagetop.png'); background-size: cover; background-position: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
@@ -40,8 +40,6 @@
         </div>
     </section>
     
-
-    <!-- Classes Section -->
     <section class="classes">
         <h2>Upcoming Classes</h2>
         <div class="class-list">
@@ -60,7 +58,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <h2>About Us</h2>
@@ -70,7 +67,6 @@
         </div>
     </section>
 
-    <!-- How It Works Section -->
     <section id="how-it-works" class="how-it-works">
         <div class="container">
             <h2>How It Works</h2>
@@ -80,7 +76,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2>Contact Us</h2>
         <p>📞 +91 7048469422</p>
